@@ -1,0 +1,93 @@
+nav {
+    font-family: 'Varela Round', sans-serif;
+    /* background-color: #f8f9fa; */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+.surname {
+    color: #db5e0a;
+}
+
+.logo {
+    font-size: 1.25rem;
+}
+
+.hamburger span {
+    display: block;
+    width: 26px;
+    height: 2px;
+    background-color: black;
+}
+
+.hamburger span:not(:last-child) {
+    margin-bottom: .3125rem;
+}
+
+@media only screen and (min-device-width: 900px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+.header__links a {
+    padding: 0 .5rem;
+    font-size: .9rem;
+}
+
+@media (max-width: 500px) {
+    .header__links {
+        display: none;
+    }
+} 
+
+.open > span {
+    transform-origin: 3px 1px;
+}
+
+.open > span:first-child {
+    transform: rotate(45deg);
+}
+.open > span:nth-child(2) {
+    opacity: 0;
+}
+.open > span:last-child {
+    transform: rotate(-45deg);
+}
+
+.menu {
+    display: none;
+}
+
+.menu.open {
+    display: block;
+    position: absolute;
+    height: 100vh;
+    top: 56px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.menu.open a {
+    font-family: 'Varela Round';
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.menu.open a:visited {
+    color: black;
+}

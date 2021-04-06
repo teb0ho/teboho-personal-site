@@ -1,0 +1,27 @@
+.profile-image {
+    display: block;    
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.25rem;
+    margin-bottom: 1.375rem;
+}
+
+.button-primary {
+    margin-top: 2rem;
+    width: 80%;
+    padding: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 1.875rem;
+    font-family: 'Source Code Pro';
+    font-size: .85em;
+}
+
+@media only screen and (min-device-width: 900px) {
+    .button-primary {
+        width: 150px;
+    }
+}
+
