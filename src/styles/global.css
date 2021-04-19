@@ -4,6 +4,23 @@
     /* line-height: 1.2;    */
 }
 
+:root {
+    --color-background: white;
+    --color-text: black;
+    --color-secondary: black;
+    --button-text: white;
+}
+
+:root.dark {
+    --color-background: #22272e;
+    --color-text: #a0afbe;
+    --color-secondary: #373e47;
+    --button-text: #a0afbe;
+}
+
+body  {
+    background-color: var(--color-background);
+}
 .container {
     padding: 0.9375rem;
 }
@@ -18,21 +35,24 @@
 
 .intro-cta {
     padding: 0.9375rem;
+    margin-bottom: 10%; 
 }
 
 @media only screen and (min-device-width: 900px) {
     .intro-cta {
         width: 500px;
-        margin: auto
+        margin: 5rem auto;
     }
 }
 
 .tc {
     text-align: center;
+    color: var(--color-text);
 }
 
 .tm {
     font-size: 1em;
+    color: var(--color-text);
 }
 
 .txl {

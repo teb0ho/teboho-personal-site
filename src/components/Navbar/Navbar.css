@@ -9,11 +9,11 @@ nav {
 
 nav a:link {
     text-decoration: none;
-    color: black;
+    color: var(--color-text);
 }
 
 nav a:visited {
-    color: black;
+    color: var(--color-text);
 }
 
 .surname {
@@ -28,7 +28,7 @@ nav a:visited {
     display: block;
     width: 26px;
     height: 2px;
-    background-color: black;
+    background-color: var(--color-text);
 }
 
 .hamburger span:not(:last-child) {
@@ -76,18 +76,18 @@ nav a:visited {
     height: 100vh;
     top: 56px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: var(--color-background);
 }
 
 .menu.open a {
     font-family: 'Varela Round';
     text-decoration: none;
-    color: black;
+    color: var(--color-text);
     display: block;
     margin: 1rem auto;
     text-align: center;
 }
 
 .menu.open a:visited {
-    color: black;
+    color: var(--color-text);
 }

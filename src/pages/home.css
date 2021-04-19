@@ -11,8 +11,8 @@
     margin-top: 2rem;
     width: 80%;
     padding: 1rem;
-    background: black;
-    color: white;
+    background: var(--color-secondary);
+    color: var(--button-text);
     border: none;
     border-radius: 1.875rem;
     font-family: 'Source Code Pro';
