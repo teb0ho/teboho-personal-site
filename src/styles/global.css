@@ -9,6 +9,8 @@
     --color-text: black;
     --color-secondary: black;
     --button-text: white;
+    
+    font-family: 'Source Code Pro';
 }
 
 :root.dark {
@@ -33,17 +35,6 @@ body  {
     font-family: 'Source Code Pro';
 }
 
-.intro-cta {
-    padding: 0.9375rem;
-    margin-bottom: 10%; 
-}
-
-@media only screen and (min-device-width: 900px) {
-    .intro-cta {
-        width: 500px;
-        margin: 5rem auto;
-    }
-}
 
 .tc {
     text-align: center;
