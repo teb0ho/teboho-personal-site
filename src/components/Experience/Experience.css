@@ -1,0 +1,36 @@
+.experience__title {
+    margin-bottom: 12px;
+}
+
+
+@media screen and (min-device-width: 900px) {
+    .experience__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+}
+
+.experience__item {
+    line-height: 1.6;
+    margin: 1rem auto;
+    /* padding: 0 auto; */
+    display: inline-block;
+}
+
+.company {
+    font-size: 1.275rem;
+    font-weight: bold;
+}
+
+
+.role {
+    font-weight: bold;
+}
+
+@media only screen and (min-device-width: 900px) {
+    .experience {
+        width: 500px;
+        margin: 1rem auto;
+    }
+}

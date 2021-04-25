@@ -5,11 +5,11 @@
 }
 
 :root {
-    --color-background: white;
+    --color-background: whitesmoke;
     --color-text: black;
     --color-secondary: black;
-    --button-text: white;
-    
+    --button-text: whitesmoke;
+
     font-family: 'Source Code Pro';
 }
 
@@ -38,6 +38,11 @@ body  {
 
 .tc {
     text-align: center;
+    color: var(--color-text);
+}
+
+.tl {
+    text-align: left;
     color: var(--color-text);
 }
 

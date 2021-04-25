@@ -5,7 +5,7 @@ import Tag from '../Tag/Tag';
 
 const Skills = () => {
     return (
-        <div className="skills container tc">
+        <div id="skills" className="skills container tc">
             <h1>Skills</h1>
 
             <ul>

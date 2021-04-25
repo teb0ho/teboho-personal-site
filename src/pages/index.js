@@ -4,6 +4,7 @@ import './home.css';
 import Intro from '../components/Intro/Intro';
 import Layout from '../components/Layout/Layout';
 import Skills from "../components/Skills/Skills";
+import Experience from '../components/Experience/Experience';
 
 export default function Home() {
 
@@ -13,7 +14,7 @@ export default function Home() {
 
         <Intro/>
         <Skills/>
-
+        <Experience/>
       </Layout>
     </>
   );
