@@ -1,7 +1,10 @@
+.experience {
+    margin-bottom: 20%;
+}
+
 .experience__title {
     margin-bottom: 12px;
 }
-
 
 @media screen and (min-device-width: 900px) {
     .experience__items {
@@ -14,7 +17,6 @@
 .experience__item {
     line-height: 1.6;
     margin: 1rem auto;
-    /* padding: 0 auto; */
     display: inline-block;
 }
 

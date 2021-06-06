@@ -26,8 +26,8 @@ const NavBar = () => {
             <div className={`menu ${open}`}>
                     <a href="/">Home</a>
                     <a onClick={handleNavClick} href="#skills">Skills</a>
-                    <a onClick={handleNavClick} href="#">Experience</a>
-                    <a onClick={handleNavClick} href="#">Blog</a>
+                    <a onClick={handleNavClick} href="#experience">Experience</a>
+                    <a onClick={handleNavClick} href="/blog">Blog</a>
             </div>
             <nav>
                 <a href="#" className="logo"><span ><strong>teboho<span className="surname">mphure</span></strong></span></a>

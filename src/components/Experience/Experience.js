@@ -4,7 +4,7 @@ import '../../styles/global.css';
 
 const Experience = () => {
     return ( 
-        <div className="experience container tc">
+        <div id="experience" className="experience container tc">
             <h1 class="experience__title">Experience</h1>
             <div className="experience__items">
                 <div className="experience__item tl">

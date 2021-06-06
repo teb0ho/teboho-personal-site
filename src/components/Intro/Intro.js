@@ -1,6 +1,7 @@
 import React from 'react';
 import './Intro.css';
 import '../../styles/global.css';
+import { navigate } from 'gatsby';
 
 const Intro = () => {
     return ( 
@@ -11,7 +12,7 @@ const Intro = () => {
             <div className="txl"><strong>Builder of Software and Great Digital Experiences.</strong></div>
             <p>I am a <strong>Fullstack Software Developer</strong> fascinated by the modern web and thrilled by building software from ideas to end product.</p>
 
-            <button className="button-primary">SAY HI</button>
+            <button className="button-primary" onClick={() => navigate('/contact')}>SAY HI</button>
           </div>
         </div>
      );
