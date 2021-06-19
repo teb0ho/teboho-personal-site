@@ -17,6 +17,8 @@
     "@fontsource/source-code-pro": "^4.2.3",
     "@fontsource/varela-round": "^4.2.2",
     "gatsby": "^3.2.1",
+    "gatsby-source-filesystem": "^3.7.1",
+    "gatsby-transformer-remark": "^4.4.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },

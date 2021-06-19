@@ -6,5 +6,19 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/src/blog/`
+      }
+    }
+  ],
+  siteMetadata: {
+    title: 'Teboho Website',
+    description: 'Teboho\'s Personal Website',
+    copyright: 'This website is free to reuse 2021'
+  }
 }
