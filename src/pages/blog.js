@@ -10,13 +10,13 @@ const Blog = ({ data }) => {
     return (
         <Layout>
             <div className="blogs container tc">
-                <h1>Blogs</h1>
+                <h1>Blog</h1>
                 <div className="blog-list">
                     <div>
                         {posts.map(post => (
                             
-                            <div className="blog-item">
-                                <Link to={"/posts/" + post.frontmatter.slug} key={post.id}>
+                            <div className="blog-mb">
+                                <Link to={"/blog/" + post.frontmatter.slug} key={post.id}>
                                     <h3>{post.frontmatter.title}</h3>
                                     <div className="post-details">
                                         <div>📝{post.frontmatter.author}</div>

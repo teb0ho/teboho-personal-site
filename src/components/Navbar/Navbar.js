@@ -25,9 +25,9 @@ const NavBar = () => {
             <div className="overlay"></div>
             <div className={`menu ${open}`}>
                     <a href="/">Home</a>
-                    <a onClick={handleNavClick} href="#skills">Skills</a>
-                    <a onClick={handleNavClick} href="#experience">Experience</a>
                     <a onClick={handleNavClick} href="/blog">Blog</a>
+                    <a onClick={handleNavClick} href="/contact">Contact</a>
+
             </div>
             <nav>
                 <a href="#" className="logo"><span ><strong>teboho<span className="surname">mphure</span></strong></span></a>
@@ -38,9 +38,8 @@ const NavBar = () => {
                 </a>
                 <div className="header__links">
                     <a href="/">Home</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#">Experience</a>
-                    <a href="#">Blog</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/contact">Contact</a>
                 </div>
             </nav>
         </>

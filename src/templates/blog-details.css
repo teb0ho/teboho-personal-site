@@ -1,0 +1,10 @@
+@media screen and (min-device-width: 900px) {
+    .blog-detail-main {
+        width: 500px;
+        margin: auto;
+    }
+}
+
+p {
+    margin-bottom: 1rem;
+}
