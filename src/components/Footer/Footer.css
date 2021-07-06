@@ -1,6 +1,9 @@
 .foot {
     margin-top: 3em;
     margin-bottom: .5rem;
+}
+
+.foot-fit-to-screen {
     position: absolute;
     bottom: 0;
     left: 0;

@@ -6,6 +6,11 @@
     margin-bottom: 12px;
 }
 
+.experience__items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
 @media screen and (min-device-width: 900px) {
     .experience__items {
         display: grid;
