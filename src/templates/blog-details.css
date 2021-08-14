@@ -5,10 +5,15 @@
     }
 }
 
-p {
+.blog-detail-main p {
     margin-bottom: 1rem;
 }
 
-a {
+.blog-detail-main a {
     margin: 1rem 0;
+    color: var(--color-text);
+}
+
+.blog-detail-main ol {
+    margin: 10px 0;
 }
