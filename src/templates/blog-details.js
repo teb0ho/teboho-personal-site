@@ -17,10 +17,9 @@ const BlogDetails = ({ data }) => {
                 <div className="tl ">
                     <h2>{title}</h2>
                 </div>
-                {/* <div className="tl blog-mb">📝 {author}</div> */}
                 <div className="tl author-details blog-mb">
-                    <div>📝{author}</div>
-                    <div>📅 {new Date(date).toDateString()}</div>
+                    <div><span role="img" aria-label="Author">📝 </span>{author}</div>
+                    <div><span role="img" aria-label="Date">📅 </span>{new Date(date).toDateString()}</div>
                 </div>
                 <div className="tl blog-mb" dangerouslySetInnerHTML={{ __html: html}}/>
             </div>
