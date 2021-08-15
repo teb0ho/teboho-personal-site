@@ -1,6 +1,7 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
 import Layout from '../components/Layout/Layout';
+import SiteMetaData from '../components/SiteMetaData/SiteMetaData';
 import './blog.css';
 
 const Blog = ({ data }) => {
@@ -9,6 +10,7 @@ const Blog = ({ data }) => {
     console.log(posts);
     return (
         <Layout>
+            <SiteMetaData/>
             <div className="blogs container tc">
                 <h1>Blog</h1>
                 <div className="blog-list">

@@ -6,6 +6,7 @@ const Contact = () => {
     
     return (
         <Layout>
+            <SiteMetaData/>
             <div className="contact container">
                 <h1>Contact Me</h1>
                 <form action="https://getform.io/f/c3f31c82-f2ea-4d31-acc4-15b082b9a968" method="POST"> 
