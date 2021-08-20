@@ -7,7 +7,7 @@ import './blog.css';
 const Blog = ({ data }) => {
 
     const posts = data.allMarkdownRemark.nodes;
-    console.log(posts);
+
     return (
         <Layout>
             <SiteMetaData/>

@@ -1,7 +1,6 @@
 import React from 'react';
 import './blog-details.css';
 import Layout from '../components/Layout/Layout';
-import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 
 const BlogDetails = ({ data }) => {
@@ -45,8 +44,6 @@ export const query = graphql`
             }
         }
     }
-}
-  
-`
+}`;
  
 export default BlogDetails;

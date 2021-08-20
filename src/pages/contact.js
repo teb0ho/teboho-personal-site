@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
 import './contact.css';
+import SiteMetaData from '../components/SiteMetaData/SiteMetaData';
 
 const Contact = () => {
     
