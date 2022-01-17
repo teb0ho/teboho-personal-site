@@ -1,20 +1,36 @@
-import React, { useEffect, useState } from 'react';
-import './Footer.css';
+import React, { useEffect, useState } from "react";
+import "./Footer.css";
 
 const Footer = () => {
+	const [documentSize, setDocumentSize] = useState(0);
+	const [scrollSize, setScrollSize] = useState(0);
 
-    const [documentSize, setDocumentSize] = useState(0);
-    const [scrollSize, setScrollSize] = useState(0);
+	useEffect(() => {
+		setScrollSize(document.body.scrollHeight);
+		setDocumentSize(document.documentElement.clientHeight);
 
-    useEffect(() => {
-        setScrollSize(document.body.scrollHeight);
-        setDocumentSize(document.documentElement.clientHeight);
-    }, [documentSize, scrollSize]);
+        const handleResize = () => {
+            setScrollSize(document.body.scrollHeight);
+            setDocumentSize(document.documentElement.clientHeight);
+        };
 
-    
-    return (
-        <div className={`foot tc secondary-type ${scrollSize > documentSize ? '' : 'foot-fit-to-screen'}`}>2018 - {new Date().getFullYear()} Teboho</div>
-    );
-}
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+        
+	}, [documentSize, scrollSize]);
+
+	return (
+		<div
+			className={`foot tc secondary-type ${
+				scrollSize > documentSize ? "" : "foot-fit-to-screen"
+			}`}
+		>
+			2018 - {new Date().getFullYear()} Teboho
+		</div>
+	);
+};
 
 export default Footer;
