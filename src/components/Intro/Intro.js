@@ -7,7 +7,7 @@ const Intro = () => {
     return ( 
         <div className="container tc">
           <div className="intro-cta">
-            <img className="profile-image" src="/UNADJUSTEDNONRAW_thumb_87.jpg"/>
+            <img className="profile-image" src="/UNADJUSTEDNONRAW_thumb_87.jpg" alt="self portrait"/>
             <div className="tm"><strong>Howdy, I'm Teboho</strong></div>
             <div className="txl"><strong>Builder of Software and Great Digital Experiences.</strong></div>
             <p>I am a <strong>Fullstack Software Developer</strong> fascinated by the modern web and thrilled by building software from ideas to end product.</p>

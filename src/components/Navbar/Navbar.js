@@ -30,12 +30,12 @@ const NavBar = () => {
 
             </div>
             <nav>
-                <a href="#" className="logo"><span ><strong>teboho<span className="surname">mphure</span></strong></span></a>
-                <a onClick={toggleMenu} className={`hamburger ${open}`}>
+                <a href="/" aria-label="Landing page link" className="logo"><span ><strong>teboho<span className="surname">mphure</span></strong></span></a>
+                <div role="menu" tabIndex={0} onClick={toggleMenu} onKeyDown={toggleMenu} className={`hamburger ${open}`}>
                     <span></span>
                     <span></span>
                     <span></span>
-                </a>
+                </div>
                 <div className="header__links">
                     <a href="/">Home</a>
                     <a href="/blog">Blog</a>

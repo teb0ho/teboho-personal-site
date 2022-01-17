@@ -9,7 +9,7 @@ const Footer = () => {
     useEffect(() => {
         setScrollSize(document.body.scrollHeight);
         setDocumentSize(document.documentElement.clientHeight);
-    });
+    }, [documentSize, scrollSize]);
 
     
     return (

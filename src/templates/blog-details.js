@@ -12,7 +12,7 @@ const BlogDetails = ({ data }) => {
         <Layout>
             
             <div className="blog-detail-main container tc">
-                <img className="blog-mb header-image" src={image.childImageSharp.fluid.src}/> 
+                <img className="blog-mb header-image" src={image.childImageSharp.fluid.src} alt="post heading"/> 
                 <div className="tl ">
                     <h2>{title}</h2>
                 </div>
