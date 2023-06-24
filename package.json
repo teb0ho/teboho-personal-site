@@ -19,6 +19,7 @@
     "gatsby": "^3.2.1",
     "gatsby-image": "^3.7.1",
     "gatsby-plugin-react-helmet": "^4.11.0",
+    "gatsby-plugin-recaptcha": "^1.0.5",
     "gatsby-plugin-sharp": "^3.7.1",
     "gatsby-remark-images": "^5.8.0",
     "gatsby-remark-reading-time": "^1.1.0",

@@ -17,34 +17,35 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 200
+              maxWidth: 200,
             },
           },
+          `gatsby-plugin-recaptcha`,
         ],
       },
     },
     `gatsby-plugin-react-helmet`,
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-image',
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-image",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
-        path: `${__dirname}/src/blog/`
-      }
+        path: `${__dirname}/src/blog/`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`
-      }
-    }
+        path: `${__dirname}/src/images/`,
+      },
+    },
   ],
   siteMetadata: {
-    title: 'Teboho Website',
-    description: 'Teboho\'s Personal Website',
-    copyright: 'This website is free to reuse 2021'
-  }
+    title: "Teboho Website",
+    description: "Teboho's Personal Website",
+    copyright: "This website is free to reuse 2021",
+  },
 }
