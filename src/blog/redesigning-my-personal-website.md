@@ -40,7 +40,7 @@ I have added a light and a dark theme, the website will adapt and match the them
 
 ### Simplified design 
 
-I'm not a design expert but on this new website I tried to use less font and I decided to drop the background imagery I was using.
+I'm not a design expert but on this new website I tried to use less fonts and I decided to drop the background imagery I was using.
 
 That's all for now see you on the next post.
 
