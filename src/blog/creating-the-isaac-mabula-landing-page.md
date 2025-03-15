@@ -1,12 +1,23 @@
 ---
-title: Redesigning my Personal Website 🖌🎨
-slug: redesigning-my-personal-website
-date: 2021-08-14
+title: Creating the Isaac Mabula Landing 🖌🎨
+slug: creating-the-isaac-mabula-landscape
+date: 2025-03-15
 author: Teboho
 image: ../images/photo-1517697471339-4aa32003c11a.jpg
 ---
 
-After a few years of my personal website's existence I decided it was time to give it an update and I went ahead and did that.
+Our running club is planning to host a race named the Isaac Mabula Challenge and I noticed that it does not have a website so I decided to create a simplistic single page website for the race.
+
+### Tech
+
+I chose the simplest tech stack for this website because it does not do anything complicated. All it does is serve static content and it also have a form which a visitor can fill out and the data is stored in a NoSQL database.
+
+The stack I used is
+
+1. Javascript
+1. Tailwind
+1. Netlify Functions
+1. Firebase
 
 This is how the website looked before and after the update.
 
