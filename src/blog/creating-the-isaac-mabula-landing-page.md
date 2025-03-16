@@ -19,7 +19,11 @@ The stack I used is
 1. Netlify Functions
 1. Firebase
 
-This is how the website looked before and after the update.
+The backend calls are handled by a netlify function which is a serverless funciton which talks to the firebase database.
+
+### Why I chose this stack
+
+I chose this stack because I didn't want to use frameworks and write a backend api for handling the client side calls.
 
 My website before the update.
 ![Old website](../images/portfolio-site-old.png)
