@@ -6,25 +6,18 @@ import SiteMetaData from "../components/SiteMetaData/SiteMetaData"
 const Portfolio = () => {
   const projects = [
     {
-      title: "Project One",
-      description: "A brief description of the project and its key features.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      image: "https://via.placeholder.com/400x300",
-      link: "#"
+      title: "Tally",
+      description: "A full-stack savings tracker app built with Next.js",
+      technologies: ["TypeScript", "Next.js", "Prisma", "Tailwind CSS"],
+      image: "/tally-mu.vercel.app.png",
+      link: "https://tally-mu.vercel.app/"
     },
     {
-      title: "Project Two",
-      description: "Another exciting project showcasing different skills and technologies.",
-      technologies: ["Python", "Django", "PostgreSQL"],
-      image: "https://via.placeholder.com/400x300",
-      link: "#"
-    },
-    {
-      title: "Project Three",
-      description: "A full-stack application demonstrating modern web development practices.",
-      technologies: ["TypeScript", "Next.js", "GraphQL"],
-      image: "https://via.placeholder.com/400x300",
-      link: "#"
+      title: "Isaac Mabula Challenge",
+      description: "A race website for the Isaac Mabula Challenge",
+      technologies: ["Netlify Functions", "JavaScript", "Tailwind CSS", "Firebase Storage"],
+      image: "/isaacmabulachallenge.co.za.png",
+      link: "https://isaacmabulachallenge.co.za/"
     }
   ]
 
