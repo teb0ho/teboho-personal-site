@@ -25,6 +25,9 @@ const NavBar = () => {
         <a onClick={handleNavClick} href="/blog">
           Blog
         </a>
+        <a onClick={handleNavClick} href="/portfolio">
+          Portfolio
+        </a>
         <a onClick={handleNavClick} href="/contact">
           Contact
         </a>
